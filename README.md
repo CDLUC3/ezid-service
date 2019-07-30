@@ -1,1 +1,1 @@
-# ezid-service-improvements
+# ezid-service
