@@ -23,7 +23,7 @@ Number of ARKs:
 
 - [ ] 3. Delete datacenter in Fabrica (Maria)
 
-- [ ] 4. “Unhook" shoulders from EZID user(s) and group (Rushiraj)
+- [ ] 4. “Unhook" shoulders from EZID user(s) and group (Maria)
 
 - [ ] 5. Run “delete user” script (Rushiraj) (this will delete the identifiers)
 
