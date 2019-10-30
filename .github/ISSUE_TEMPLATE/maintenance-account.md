@@ -28,8 +28,10 @@ Number of ARKs:
 
 5. Rename the original group to *_nonpaying (Rushiraj)
 
-6. Add "active: false" flag to shoulder entry in master_shoulders.txt. (John)
+6. Re-enable user login (Rushiraj)
 
-7. Associate the shoulder with CDL.CDL datacenter in master_shoulders.txt (John)
+7. Add "active: false" flag to shoulder entry in master_shoulders.txt. (John)
 
-8. Remove datacenter in master_shoulders.txt (if no longer in use) (John)
+8. Associate the shoulder with CDL.CDL datacenter in master_shoulders.txt (John)
+
+9. Remove datacenter in master_shoulders.txt (if no longer in use) (John)
