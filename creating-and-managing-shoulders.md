@@ -1,5 +1,20 @@
 # Creating and Managing EZID Shoulders
-*Note: UCOP VPN access required*
+This document explains the procedure for creating and managing shoulders in EZID. Creating and managing shoulders in EZID is an essential operation that enables users to register identifiers. 
+
+For information about shoulders, see XXXXX. 
+
+Currently, creating and managing shoulders requires using Python management commands. In the future, the workflow could be improved by enabling shoulder creation and management functions in the EZID Admin UI. 
+
+Prior to creating and managing a shoulder, communication with a current or prospective user is required to determine their needs and the best course of action. If the request entails a new prefix or NAAN, additional coordination with prefix and NAAN authorities (DataCite, Crossref, and the NAAN Registry, respectively) is required. See the related documentation about this aspect of the process. 
+
+Once a shoulder has been created, it needs to be linked to the user's account in EZID. See related documentation XXXXX. 
+
+## Prerequisites
+- Determine if the user needs a DataCite shoulder, Crossref shoulder, or ARK shoulder
+- Determine if the user will be using a shoulder on an existing prefix/NAAN or if they require a new prefix or NAAN
+- If a new prefix is required, contact DataCite or Crossref (see related documentation XXXXX)
+- If a new NAAN is required, submit the NAAN request form (see related documentation XXXXX)
+- UCOP VPN access is required and must be enabled in order to run the below operations
 
 ## Accessing the servers
 
@@ -17,9 +32,7 @@
 
 `ssh username@uc3-ezidui01x2-stg.cdlib.org`
 
-3. When prompted, enter your password
-
-*Note: Server passwords are created and managed by the IAS team*
+3. If prompted, enter your password. Server passwords are created and managed by the IAS team. As of November 23, IAS is preferring that servers be accessed via ssh key instead of passwords. Contact IAS if you need a ssh key and/or need help using it to access EZID. 
 
 5. Become the EZID role account user:
 `sudo su - ezid`
