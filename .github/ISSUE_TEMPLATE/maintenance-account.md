@@ -17,10 +17,8 @@ Number of DOIs (number reserved):
 Number of ARKs:
 
 1. Disable login (Maria)
-
-2a. If DataCite DOI, move PIDs to CDL.CDL datacenter (Maria)
-
-2b. If DataCite DOI, delete old client datacenter in Fabrica (if applicable) (Maria)
+   
+2. Unhook shoulder(s) from user
 
 3. Move PIDs to cdl_nonpaying group (Rushiraj)
 
@@ -30,8 +28,3 @@ Number of ARKs:
 
 6. Re-enable user login (Rushiraj)
 
-7. Add "active: false" flag to shoulder entry in master_shoulders.txt. (John)
-
-8. Associate the shoulder with CDL.CDL datacenter in master_shoulders.txt (John)
-
-9. Remove datacenter in master_shoulders.txt (if no longer in use) (John)
