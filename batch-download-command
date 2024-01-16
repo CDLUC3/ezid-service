@@ -1,0 +1,1 @@
+./batch-download.sh username pw format=csv compression=zip column=_id column=_mappedCreator column=_mappedTitle column=_target column=_mappedPublisher column=_mappedDate column=_mappedType column=_status owner=ucb-lawlib
