@@ -97,7 +97,7 @@ DataCite will typically turn around a prefix request within 1-2 business days. N
 ## Special cases
 
 ### User will be registering Crossref identifiers
-See the [separate guide about Crossref] 
+See the [separate guide about Crossref](https://github.com/CDLUC3/ezid-service/blob/master/crossref-accounts-in-ezid.md) 
 
 ### User needs a new shoulder on an existing prefix or NAAN
 In some cases, an existing user may get in touch asking for a new shoulder on an existing prefix or NAAN. This does not need to go through the same approval process as for a brand-new account, but it is at the Service Manager's discretion to determine how best to move forward. 
