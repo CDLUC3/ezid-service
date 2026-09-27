@@ -27,23 +27,15 @@ Once a shoulder has been created, it needs to be linked to the user's account in
 - Prod: uc3-ezidui01x2-prd.cdlib.org
 
 
-2. In a Terminal window, log in to the EZID server using ssh and the server name:
-   
-`ssh uc3-ezidui01x2-stg.cdlib.org`
+2. Using the [Session Manager tool](https://github.com/cdlib/ias-user-guides/blob/main/SessionManager-for-Devs.md) log in to the EZID server, e.g.
+`session uc3-ezidui-prd01`
 
-*Note*: Depending on your setup, you may need to add your computer username to the beginning of the command, e.g.: 
-
-`ssh username@uc3-ezidui01x2-stg.cdlib.org`
-
-3. If prompted, enter your password. Server passwords are created and managed by the IAS team. As of November 23, IAS is preferring that servers be accessed via ssh key instead of passwords. Contact IAS if you need a ssh key and/or need help using it to access EZID. 
-
-5. Become the EZID role account user:
+3. Become the EZID role account user:
 `sudo su - ezid`
 
-7. Navigate to the EZID directory:
+4. Navigate to the EZID directory:
 `cd ezid`
-
-9. Now you are ready to run a shoulder management command. Follow the instructions below depending on which operation you need to run.
+5. Now you are ready to run a shoulder management command. Follow the instructions below depending on which operation you need to run.
 
 ## General notes about creating shoulders
 The basic command for creating a new shoulder is structured as follows:
